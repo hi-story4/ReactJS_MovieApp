@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
 function Detail() {
@@ -20,7 +20,7 @@ function Detail() {
 
   const linkStyle = {
     color: "skyblue",
-    display: "flex"
+    display: "flex",
   };
   return (
     <div>

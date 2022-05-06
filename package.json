@@ -11,8 +11,8 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-router": "6.3.0",
-    "react-router-dom": "6.3.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^2.1.3"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -22,12 +22,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://jun-hyeok.github.io/ReactJS_MovieApp"
 }
